@@ -1,0 +1,7 @@
+header {
+  border: {
+    width: 1px;
+    color: #ccc;
+    style: solid;
+  }
+}
