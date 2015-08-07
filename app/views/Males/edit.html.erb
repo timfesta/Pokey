@@ -1,0 +1,15 @@
+ <%= form_for @male, url:{action:"update"} do |f| %>
+  <p>
+    <%= f.label :shirt %><br>
+    <%= f.text_field :shirt %>
+  </p>
+ 
+  <p>
+    <%= f.label :pant %><br>
+    <%= f.text_area :pant %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %> 

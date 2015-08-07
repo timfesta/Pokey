@@ -1,0 +1,14 @@
+
+
+<% @males.each do |male| %>
+
+  <div>Shirt: <%= male.shirt %></div>
+  <div>Pant: <%= male.pant %></div>
+  <div>
+  <%= button_to 'show', male_path(male), method: :get %>
+  <%= button_to 'edit', edit_male_path(male), method: :get %>
+  <%= button_to 'delete', male_path(male),
+            method: :delete,
+            data: {confirm: "are you sure?"} %>
+</div>
+<% end %>
