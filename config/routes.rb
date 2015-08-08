@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  
-  root 'males#index'
+  root 'welcome#index'
+  # root 'males#index'
 
   resources :males
 end

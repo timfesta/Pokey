@@ -46,3 +46,5 @@ end
 group :development, :test do
  gem 'rspec-rails'
 end
+
+ruby "2.0.0"
